@@ -10,14 +10,14 @@ pipeline {
     stage('Fluffy Test') {
       steps {
         sleep 5
-        sh 'echo Success!'
+        sh 'echo "Success!"'
       }
     }
 
     stage('Fluffy Deploy') {
       steps {
         echo 'Placeholder'
-        sh 'echo Another Placeholder'
+        sh 'echo "Another Placeholder"'
       }
     }
 
